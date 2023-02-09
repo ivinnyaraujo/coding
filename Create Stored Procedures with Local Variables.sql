@@ -27,9 +27,9 @@ BEGIN
 --- Run select statement
 SELECT O.[OrderDate]
       ,O.[OrderNumber]
-	  ,C.[FirstName]
-	  ,C.[LastName]
-	  ,P.[ProductName]
+      ,C.[FirstName]
+      ,C.[LastName]
+      ,P.[ProductName]
 FROM [Training_dbo].[dbo].[Order] O
 INNER JOIN [Training_dbo].[dbo].[Customer] C ON O.[CustomerId] = C.[Id]
 INNER JOIN [Training_dbo].[dbo].[OrderItem] OI ON O.[Id] = OI.[OrderId]
