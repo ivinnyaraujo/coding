@@ -3,7 +3,7 @@
 ---			 It aims to support SQL users to smartly retrieve data to support data professionals.
 
 --- Context: Databases have the data stored in an organized manner. However, we may come across situations where we need to retrieve 
----          the data but we don’t have a specific filter to achieve this. For such cases, Substring and RegEx (Regular Expressions) functions can help us to retrieve the 
+---          the data but we donâ€™t have a specific filter to achieve this. For such cases, Substring and RegEx (Regular Expressions) functions can help us to retrieve the 
 ---          data we need. Subtring Functions returns a portion of a character string, while RegEx are generalized expressions used to match patterns with various sequences of characters.
 ---			 See a few examples below.
 
